@@ -1,0 +1,33 @@
+variable is like a box that can store different differe\
+ types such as strings and lists 
+ eg message = "hello" 
+
+
+strings are type to represent text in your programs.they start and end with double or
+single quote
+text = "hello, how are you?"
+
+
+
+Lists are types to represent a series of itemm in a numbered sequenece
+todos = [todo1, todo2, todo3, "hello"]
+
+functions are entitites that are designed to perform a particular function.
+eg print() function prints out the output on screen
+
+Arguments are inputs used by functions.they can  be any data type such as string, list etc
+They can also be a variable.
+
+todo = input(prompt)
+here prompt is an argument for input function
+
+to check the methods we can use on something lets say string using  dir()
+dir(str)
+
+to know about a particular method on that type lets say capitalize method on string
+help("abc".capitalize)
+
+to know about the functions
+import builtins
+
+dir(builtins)

@@ -1,0 +1,27 @@
+when using with context manager with files we dont need to close the file
+
+file = open("data/todos.txt", "r")
+todos = file.readlines()
+file.close()
+
+we simply change the above line of code to this using with content
+
+
+with open("data/todos.txt", "r") as file:
+    todos = file.readlines()
+
+
+by default open functions assigns "r"  to modes argument
+
+
+Q1: When should I use read() and when readlines()?
+
+A: If you want to get all the text as one single string, use read(). 
+If you want to get separate strings for each line, use readlines().
+
+Q2: How is the with-context manager actually able to close the file when we are 
+not including the close() method?
+
+A: The close() method is called implicitly even though we don't call it explicitly. 
+The Python interpreter will call the method when it sees that we have written a 
+with-context manager.

@@ -1,0 +1,22 @@
+for loop is used to iterate over elements. it is similar to while loop 
+
+elements = ["giraffe", "horse", "lion"]
+
+for element in elements:
+    print(element)
+
+match case is used for control flow based on case matching
+
+text = input("Enter the text ")
+
+match text:
+    case "A":
+        print("A")
+    case "B":
+        print("B")
+    case "exit":
+        break       
+    case _:
+        print("doesn't match")
+
+python is converted by  cpython - interpretor into machine language 

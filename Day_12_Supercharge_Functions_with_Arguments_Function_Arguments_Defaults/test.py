@@ -1,0 +1,10 @@
+def greet(message):
+    new_message = message.capitalize()
+    print("Hey Hey")
+    return new_message
+
+greeting = greet("hello, how are you?")
+print(greeting,len(greeting))
+
+
+

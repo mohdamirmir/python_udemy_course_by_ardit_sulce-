@@ -1,0 +1,91 @@
+import operator
+
+from python_udemy_course_by_ardit_sulce.Day_7_Optimize_and_Annotate_Your_Code_List_Comprehensions_CodeComments.main import user_action
+
+
+if condition
+
+if condition then 
+do something
+
+if 'add' in user_action:
+    print("something")
+
+if elif condition:
+
+if a>b:
+    print("a is greater than b")
+
+elif(b == a):
+    print("a is equal to b")
+
+else:
+    print("b is greater than b")
+
+comparison operator
+#greater
+ 3 > 2 
+
+#less than
+ 3 < 2
+
+#equality
+ 3 == 2
+
+
+Boolean operator
+
+# or - if either of the condition is true then the print statement will be executed
+if 'add' in user_action or 'new' in user_action:
+    print("add")
+
+
+# and  - if both of the condition is true then the print statement will be executed
+if 'add' in user_action and  'new' in user_action:
+    print("add")
+
+# not(also called negation) - if add is not in user_Action then the print statement will be executed
+if 'add' not in user_action:
+    print("add")
+
+#list
+a = [10,20,30]
+#to access
+a[1]
+
+
+#dictionary
+b = {"length": 10, "width": 20, "height": 30}
+# to access
+
+b['length']
+
+#to add element
+b["area"] = 100
+
+
+
+Q1: What are the pros and cons of if-elif-else and match-case?
+
+A: Match-case is generally faster. If you can use it, do so. However, match-case is more limited. It can only check if one value is equal to another. It cannot check if one value is less/greater than another, or other more complex conditions. For such advanced conditions, you should use if-elif-else.
+
+Q2: What does the in operator do?
+
+in is just another operator. For example, we have the "greater-than" operator that 
+checks if the value on the left is greater than the value on the right.
+
+if 3 > 2:
+    print("Yes")
+Similarly, we have the in operator that checks if the value on the left is contained 
+in the value on the right. For example:
+
+if "a" in "aaa":
+    print("Yes")
+    
+And we can also use it with lists to check if the list contains a certain item:
+
+if "a" in ["a", "b", "c"]:
+    print("Yes")
+
+The in operator is also known as a "containment test", although this is a very 
+technical term that almost no one uses.

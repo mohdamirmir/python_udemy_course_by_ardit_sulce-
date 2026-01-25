@@ -1,0 +1,13 @@
+from decimal import DivisionByZero
+
+
+a=3
+b=2
+
+try:
+    c = a/b
+    print(c)
+except DivisionByZero:
+    print("you cannot divide by zero")
+
+    

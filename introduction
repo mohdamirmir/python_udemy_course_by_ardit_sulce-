@@ -1,0 +1,14 @@
+Python mega course in which you will build 20 real world apps
+app no 1: todo list app
+
+to create virtual environment
+python -m venv venv
+
+to activate
+source venv/bin/activate
+
+to check if venv is being used
+which python
+
+to show output using print statement
+print("Hello World")
