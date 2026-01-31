@@ -40,6 +40,51 @@ json.load() - json string to python datastructure
 
 brew install git 
 
+adding git to the repo..
+git init
+
+to check satus
+git status
+
+add files to tracking
+git add . 
+
+commit chnages 
+git commit -m "initial commit"
 
 
+git remote add origin <REPO_URL>
 
+git push
+
+
+git checkout vs git reset
+
+git checkout changes branches
+eg. git checkout -b features
+
+git reset moves head, 
+
+git reset --soft HEAD~1
+Removes commit
+Keeps changes staged
+Safe for fixing commit messages
+
+when to use: “I want to redo my last commit”
+
+
+git reset HEAD~1
+
+Removes commit
+Keeps changes unstaged
+when to use: “Undo commit but keep my code”
+
+
+git reset --hard HEAD~1
+Removes commit
+Deletes changes permanently ❌
+
+when to use: “I want to nuke everything and go back”
+
+newer git prefers 
+git switch #for changing branches
