@@ -16,7 +16,7 @@ input_box = sg.InputText(tooltip="Enter TO-DO")
 add_button = sg.Button("Add")
 
 
-window = sg.Window( "My TODO-APP",layout=[[label], [input_box,add_button]])
+window = sg.Window( "My TODO-APP",layout=[[label], [input_box],[add_button]])
 
 window.read()
 print("Hello")
