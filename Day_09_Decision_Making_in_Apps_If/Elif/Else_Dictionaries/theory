@@ -1,6 +1,4 @@
-import operator
 
-from python_udemy_course_by_ardit_sulce.Day_7_Optimize_and_Annotate_Your_Code_List_Comprehensions_CodeComments.main import user_action
 
 
 if condition
