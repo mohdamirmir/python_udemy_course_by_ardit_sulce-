@@ -1,0 +1,16 @@
+https://sveinbjorn.org/platypus
+
+
+to create executable files for mac
+
+brew install --cask platypus
+
+
+the widgets are well aligned . All we did to achieve that was put the widgets inside Column widgets using these lines:
+
+col1 = sg.Column([[label1], [label2]])
+col2 = sg.Column([[input1], [input2]])
+col3 = sg.Column([[choose_button1], [choose_button2]])
+Then, we use supplied those column widgets to layout:
+
+layout=[[col1, col2, col3], [extract_button]]
