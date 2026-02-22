@@ -1,1 +1,6 @@
 
+how to run webapps?
+
+streamlit run path
+
+streamlit run web.py
